@@ -1,9 +1,9 @@
 // Ex 1. Add the .blue CSS class to the th elements
 
-const thElements = document.querySelectorAll('.blue');
+const thElements = document.querySelectorAll('th');
 
 thElements.forEach((element) => {
-  element.className = ".blue";
+  element.className = "blue";
 });
 
 // Ex 2. Count the number of table body rows there are
@@ -25,8 +25,9 @@ list.insertAdjacentHTML('beforeend',  '<tr><td>15</td><td>Spezia</td><td>39</td>
 // Ex 4. Write some code to sum all points given to all teams
 //       Make the function summarizePoints() return it
 const summarizePoints = () => {
+
   // TODO: return the sum
-  return ;
+  return  ;
 };
 
 
