@@ -11,8 +11,8 @@ thElements.forEach((element) => {
 const teamCount = () => {
 
   // TODO: return the number of teams
-  const trElements = document.querySelectorAll('tbody');
-  return trElements;
+  const trElements = document.querySelectorAll('tbody tr');
+  return trElements.length;
 };
 
 // Ex 3. Say there is a 15th team added to the table.
