@@ -9,6 +9,7 @@ thElements.forEach((element) => {
 // Ex 2. Count the number of table body rows there are
 //       Make the function teamCount() return it
 const teamCount = () => {
+
   // TODO: return the number of teams
   const trElements = document.querySelectorAll('tbody');
   return trElements;
@@ -18,8 +19,8 @@ const teamCount = () => {
 //       Add a row at the bottom, this new team (Spezia) should have 39 points.
 
 const list = document.querySelector('tbody');
-list.insertAdjacentHTML('beforeend',  'Spezia 39');
-  
+list.insertAdjacentHTML('beforeend',  '<tr><td>15</td><td>Spezia</td><td>39</td></tr>');
+
 
 // Ex 4. Write some code to sum all points given to all teams
 //       Make the function summarizePoints() return it
